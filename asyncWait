@@ -7,4 +7,8 @@ const speakPromise =() =>{
 }
 
 
-conso
+const getPromise =()=>{
+    const data ={message: 'In function'};
+    speakPromise();
+    console.log(data);
+}
