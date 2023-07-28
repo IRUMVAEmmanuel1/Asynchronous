@@ -4,5 +4,8 @@ const returnPromise =()=>{
         if(resolveCondition){
             resolve("Promise Executed")
         }
+        else{
+            rejected("Invalid COndition in promise")
+        }
     })
 }
