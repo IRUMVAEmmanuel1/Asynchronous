@@ -1,3 +1,3 @@
 const returnPromise =()=>{
-    return new Promise
+    return new Promise(())
 }
