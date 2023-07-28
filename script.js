@@ -1,3 +1,3 @@
-const hello =()=>{
-    console.log("Hello Andela")
+const returnPromise =()=>{
+    return new Promise
 }
