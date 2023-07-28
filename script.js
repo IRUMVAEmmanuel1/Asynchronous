@@ -2,13 +2,11 @@ const returnPromise =()=>{
     return new Promise((resolve,rejected) =>{
         const resolveCondition = true;
         setTimeout(()=>{
-            if(resolveCondition){
-            resolve({data:{message:"result available"}})
-        }
-        else{
-            rejected("Invalid COndition in promise")
-        }},200)
-        console.log("I am executed before promise resolved")
+            const res = fetch("https://restcountries.com/v3.1/name/{name}");
+            resolve(res)   
+        
+       },200)
+       
     });
 }
 
