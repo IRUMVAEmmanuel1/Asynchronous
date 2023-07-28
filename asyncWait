@@ -1,0 +1,10 @@
+const speakPromise =() =>{
+    setTimeout(() =>{
+        return new Promise((resolve,reject)=>{
+            console.log("Inside promise");
+        },3000)
+    });
+}
+
+
+conso
