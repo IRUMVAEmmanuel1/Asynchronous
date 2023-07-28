@@ -15,3 +15,5 @@ const returnPromise =()=>{
 console.log(returnPromise())
 
 const res = returnPromise();
+
+res.then((response)=>{}).catch((err)=>{})
