@@ -7,6 +7,7 @@ const returnPromise =()=>{
         else{
             rejected("Invalid COndition in promise")
         }},200)
+        console.log("I am executed before promise resolved")
     });
 }
 
