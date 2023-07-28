@@ -7,8 +7,12 @@ const speakPromise =() =>{
 }
 
 
-const getPromise =()=>{
+const getPromise = async ()=>{
     const data ={message: 'In function'};
-    speakPromise();
+    const res = await speakPromise();
+    console.log(res)
     console.log(data);
 }
+
+
+getPromise();
