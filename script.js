@@ -7,5 +7,7 @@ const returnPromise =()=>{
         else{
             rejected("Invalid COndition in promise")
         }
-    })
+    });
 }
+
+console.log(returnPromise)
