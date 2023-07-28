@@ -3,7 +3,7 @@ const returnPromise =()=>{
         const resolveCondition = true;
         setTimeout(()=>{
             const res = fetch("https://restcountries.com/v3.1/name/{name}");
-            resolve(res)   
+            resolve(res.then(r.json()))   
         
        },200)
        
