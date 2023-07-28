@@ -1,8 +1,9 @@
 const returnPromise =()=>{
     return new Promise((resolve,rejected) =>{
         const resolveCondition = true;
-        setTimeout(()=>{if(resolveCondition){
-            resolve("Promise Executed")
+        setTimeout(()=>{
+            if(resolveCondition){
+            resolve({data:{message:"result available"}})
         }
         else{
             rejected("Invalid COndition in promise")
@@ -12,3 +13,5 @@ const returnPromise =()=>{
 }
 
 console.log(returnPromise())
+
+const res = returnPromise();
