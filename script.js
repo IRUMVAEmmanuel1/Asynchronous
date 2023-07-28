@@ -11,4 +11,4 @@ const returnPromise =()=>{
     });
 }
 
-console.log(returnPromise)
+console.log(returnPromise())
